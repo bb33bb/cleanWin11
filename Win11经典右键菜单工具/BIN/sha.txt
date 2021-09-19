@@ -1,0 +1,18 @@
+﻿文件: shellbrd.dll
+大小: 40960 字节
+文件版本: 10.0.22000.1
+修改时间: 2021年6月5日, 星期六, 20:04:54
+SHA1: 00462E046D2E327B73FA73F8803878C65A51D63A
+CRC32: 7710AB72
+改成传统属性样式后替换%Windir%\Branding\shellbrd\shellbrd.dll
+
+
+
+文件：shell32.dll
+大小：7921432 字节
+文件版本: 10.0.22000.51
+修改时间：2021-06-29 10:57:47
+SHA1：2C0464B23F0A371E69C50AB7ACF2F49BAEB38A5B
+CRC32：5959AF48
+改成传统右键样式后：%Windir%\system32\shell32.dll改名为shell32.65+，复制此文件为%Windir%\system32\shell32.dll
+改成新的右键样式后：删除%Windir%\system32\shell32.dll后，把%Windir%\system32\shell32.65+改名为shell32.dll。
